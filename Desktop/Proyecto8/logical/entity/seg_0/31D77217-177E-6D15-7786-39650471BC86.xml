@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31D77217-177E-6D15-7786-39650471BC86" name="Servicio">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 15:37:20 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2C27CE35-A28A-B106-A72F-29BF0A736B06">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 15:58:16 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_solicitud" id="894355F0-422D-8948-F874-69A8CE6DE32F">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 15:58:29 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_mensual" id="88CA1DAA-1261-0AE4-3399-636658CB9791">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 15:58:46 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cierre" id="F77FEB3D-F0A4-4030-532E-6F9B21ADB73E">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:06:06 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="269EBD20-03C4-301C-B9CC-9D7A4A0423E1">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:57:10 UTC</createdTime>
+<generatorID>CC4EE12A-2519-3526-BA79-222A2397BA95</generatorID>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<referedAttribute>C0330F8C-DD87-313B-90FC-E78FC7F825E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE0C96AD-717D-8179-4B37-56B164814471" name="Servicio PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 15:58:27 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C27CE35-A28A-B106-A72F-29BF0A736B06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

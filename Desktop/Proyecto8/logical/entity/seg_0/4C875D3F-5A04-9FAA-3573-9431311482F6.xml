@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C875D3F-5A04-9FAA-3573-9431311482F6" name="Proyecto">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:38:37 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C0330F8C-DD87-313B-90FC-E78FC7F825E6">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:38:41 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descirbcion" id="7D430614-D74A-EA41-CB90-B562E916A238">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:38:42 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presupuesto" id="FC6FF38A-2D41-BCF5-F185-E6B42A8F55F7">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:38:42 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_cierre_esperada" id="06F6B841-02F8-42E1-B10A-5BD07FDA2E4B">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:38:42 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lider_proyecto_id" id="06B100DA-0F4D-5B19-9E94-5F13033DB95D">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:38:44 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="CA4355B3-8D4D-22C7-5A32-C7A77F8E8DA9">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:56:56 UTC</createdTime>
+<generatorID>CC4EE12A-2519-3526-BA79-222A2397BA95</generatorID>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<referedAttribute>2C27CE35-A28A-B106-A72F-29BF0A736B06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30F44F98-35E4-4222-BC7D-D7C74BCABF55" name="Entity_7 PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-13 16:42:12 UTC</createdTime>
+<ownerDesignName>Proyecto8</ownerDesignName>
+<engineerTo>
+<item key="1A328892-031A-798D-B160-4C4CE148D4AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0330F8C-DD87-313B-90FC-E78FC7F825E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
