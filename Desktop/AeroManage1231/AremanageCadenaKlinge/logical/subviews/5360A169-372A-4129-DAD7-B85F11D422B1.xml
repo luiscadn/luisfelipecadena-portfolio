@@ -18,12 +18,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="667" y="307" width="153" height="63"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="48526509-7ED5-D278-73D5-4180A790AA78" otype="Note" vid="E7152A5D-8E9F-B9C0-B6DD-63C631AA812E">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1170" y="347" width="95" height="40"/>
-<comment>Double click to 
-edit the text.</comment>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="4E0D3458-BC5E-0912-086F-85E876CF3557" otype="Entity" vid="FE39E827-70AA-6619-7E31-EF78433C10A4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="177" y="531" width="170" height="79"/>
@@ -37,12 +31,6 @@ Corina Klinge Ramirez</comment>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6A6717CA-C304-DF5D-2AB5-5F6C09C9684C" otype="Entity" vid="87B528ED-D50C-4F21-6ACE-54B46E7A414B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="172" y="207" width="150" height="90"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="8A45EDA7-452E-AF94-9EE4-820BA80784BE" otype="Note" vid="AB1CEADB-5EB5-EA10-91D9-AFAEB64D13C9">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1010" y="458" width="95" height="40"/>
-<comment>Double click to 
-edit the text.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="97F0AC6E-D46C-4999-2CAE-CF633F81EBAD" otype="Entity" vid="4698BC39-E1E7-3B7F-F637-B1C197F3AE68">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
