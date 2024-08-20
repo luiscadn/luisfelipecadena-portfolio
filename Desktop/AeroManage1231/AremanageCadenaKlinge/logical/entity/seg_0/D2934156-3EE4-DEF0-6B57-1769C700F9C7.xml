@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2934156-3EE4-DEF0-6B57-1769C700F9C7" name="LICENCIA_CONTROL_TRAFICO">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:45:05 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_licencia" id="0A57526B-F685-C62B-950D-A2E72BB84FC4">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:45:17 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datos_basicos" id="283A7829-5AFD-7235-1216-4D695CD6539B">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:50:02 UTC</createdTime>
+<generatorID>C31213B0-D37A-121D-54CB-5105E81F0FEB</generatorID>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<referedAttribute>54AE9C6C-4183-CD2D-B897-1A00F6165EA9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="420623AC-1DC3-6C9D-93BE-41C5BA8CB5D5" name="LICENCIA PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:45:36 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A57526B-F685-C62B-950D-A2E72BB84FC4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

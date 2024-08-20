@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18E1B84E-2642-DCB8-F202-43547E9AD91B" name="IDIOMA">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:36:20 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre_idioma" id="CA0A206A-0EDF-3257-79F6-03B5D2BA9B97">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:36:32 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel" id="1394A82B-90A7-58E4-0F45-46D48B1FB063">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:36:50 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datos_basicos" id="46C20DF8-B499-D152-AC05-2ACAE96DF531">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:46:12 UTC</createdTime>
+<generatorID>56666474-16FA-23EB-4C33-6E48115BF595</generatorID>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<referedAttribute>DC3B9C55-A396-A978-65E0-0495CC5759AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0F7E264-3F89-F103-7F30-EAA0467A7CB0" name="IDIOMA PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:36:48 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA0A206A-0EDF-3257-79F6-03B5D2BA9B97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

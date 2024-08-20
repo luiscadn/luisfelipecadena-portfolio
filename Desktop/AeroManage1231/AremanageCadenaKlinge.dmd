@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AremanageCadenaKlinge" id="BB64F734-2A12-B5BE-C321-B95BEFE77337" version="3.5">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 12:52:12 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BB64F734-2A12-B5BE-C321-B95BEFE77337</designId>
+</OSDM_Design>

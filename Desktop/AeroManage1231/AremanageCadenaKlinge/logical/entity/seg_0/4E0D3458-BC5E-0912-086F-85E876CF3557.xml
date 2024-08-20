@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E0D3458-BC5E-0912-086F-85E876CF3557" name="CONTROLADOR_TRAFICO">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:42:37 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D2D325A1-7C9F-3A71-11EF-35E474C85BD2</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datos_basicos" id="54AE9C6C-4183-CD2D-B897-1A00F6165EA9">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:42:51 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_licencia" id="002EF1E3-ADD6-A278-AB93-C55146489732">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:42:53 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_licencia" id="7B52BB9C-31BC-3652-B147-7C48ED0481AA">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:51:16 UTC</createdTime>
+<generatorID>C31213B0-D37A-121D-54CB-5105E81F0FEB</generatorID>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<referedAttribute>0A57526B-F685-C62B-950D-A2E72BB84FC4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3FE695C-3564-1B01-CD97-F82BE701FC91" name="CONTROLADOR_TRAFICO PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 15:43:53 UTC</createdTime>
+<ownerDesignName>AremanageCadenaKlinge</ownerDesignName>
+<engineerTo>
+<item key="CA1CEF18-064A-2F88-B594-B65FC21CBA75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>54AE9C6C-4183-CD2D-B897-1A00F6165EA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
