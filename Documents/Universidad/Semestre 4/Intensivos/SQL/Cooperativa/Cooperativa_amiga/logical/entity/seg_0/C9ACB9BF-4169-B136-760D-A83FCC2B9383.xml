@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9ACB9BF-4169-B136-760D-A83FCC2B9383" name="MODALIDAD_PRESTAMO">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:39:11 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_prestamo" id="98F819CD-BEAB-AA9C-9F14-CE60EEDEF3BF">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:54:02 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plazo_max" id="F3E54411-5491-13C8-90EF-B10937289C52">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:54:03 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tasa_interes" id="46490989-D740-D366-1E01-33C70CE49EF2">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:54:03 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_prestamo_asignado" id="B7CF2421-C770-DC30-66C5-5E7A56A155CB">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 22:01:26 UTC</createdTime>
+<generatorID>B5D9FDA8-854B-058C-DDC6-AFBAE8A69062</generatorID>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<referedAttribute>29588A1C-98CB-6F13-BED3-23D71238AF72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_prestamo_asignado1" id="8E73899B-C2E0-98D8-56F5-FB1A4DF8D3A8">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 22:11:45 UTC</createdTime>
+<generatorID>BAF45D18-DE55-9013-1CF4-DE07BAEDEF54</generatorID>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<referedAttribute>29588A1C-98CB-6F13-BED3-23D71238AF72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E7B727D-961F-E2E7-DECA-81B41582864B" name="MODALIDAD_PRESTAMO PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:54:44 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98F819CD-BEAB-AA9C-9F14-CE60EEDEF3BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

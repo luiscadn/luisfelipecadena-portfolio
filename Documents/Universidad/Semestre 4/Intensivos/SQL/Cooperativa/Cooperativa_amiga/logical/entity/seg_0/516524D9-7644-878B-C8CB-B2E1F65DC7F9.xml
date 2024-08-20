@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="516524D9-7644-878B-C8CB-B2E1F65DC7F9" name="PROPIEDAD_RAIZ">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 21:38:44 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="direccion_completa" id="63516D7F-2D69-6863-2404-65B6BCBD2F7D">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 21:39:03 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_total_terreno" id="D3289FD9-9726-3081-379F-E829FED8FADB">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 21:39:16 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_matricula_inmobiliaria " id="534F0D59-0403-4399-9A67-10135FDFEFA5">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 21:39:38 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vzlor_comercial" id="14CD022D-585A-E199-566B-FDE11FEABAD9">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 21:40:11 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="9FE5B3FC-C4D9-20C4-ABFA-26295E321EE2">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 22:17:04 UTC</createdTime>
+<generatorID>30EBE09B-7350-295D-8B25-ED29C40FEDEA</generatorID>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<referedAttribute>3FB2DEFA-194A-4AFB-13A4-EB21ECD2EF79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

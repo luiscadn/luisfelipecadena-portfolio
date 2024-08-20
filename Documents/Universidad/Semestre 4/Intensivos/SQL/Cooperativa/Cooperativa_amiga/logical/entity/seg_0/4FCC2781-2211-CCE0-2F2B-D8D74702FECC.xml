@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FCC2781-2211-CCE0-2F2B-D8D74702FECC" name="PRESTAMO">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:20:37 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_prestamo_asignado" id="29588A1C-98CB-6F13-BED3-23D71238AF72">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:21:01 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_de_inicio" id="69E2F7CF-A424-F3A9-D03A-20538577EAB7">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:21:01 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_prestado" id="20CE1448-4B20-5829-CD47-CD04492A170E">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:21:01 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cuota_mensual" id="40DE670B-AB8D-6C89-B7B5-F504E8EA1824">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:21:02 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="periodo_reembolso_meses" id="D68D1F80-C734-53E1-12F4-320D325795F7">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:21:02 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_prestamo" id="22A52761-F28D-0FE3-B5CA-EBB459A51F49">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:40:25 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asociado" id="EFA9777D-885D-D4A4-6BE9-102734B64FCB">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:40:25 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codeudor" id="0CC28C4F-86AB-42BB-39F6-AC570AA74013">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:40:26 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="98DDF8F8-D1BD-CFF7-00F0-A029F25B501B">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 21:44:42 UTC</createdTime>
+<generatorID>EEC76155-4247-562F-1F61-EE1223FCE0CC</generatorID>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<referedAttribute>C1D645EE-54FB-6717-4D75-90B91B9A40C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT039</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C089BA6-C0F6-EE2A-F174-ADA65D23EAF4" name="Prestamo PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:24:30 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29588A1C-98CB-6F13-BED3-23D71238AF72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
