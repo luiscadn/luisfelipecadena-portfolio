@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF666453-1FDC-6B8F-D48C-45FE8045684E" name="REFERENCIA_COMERCIAL">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-22 15:21:07 UTC</createdTime>
+<ownerDesignName>Cooperativa</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_referencia" id="57BBDB6A-FA90-A636-C505-369998756601">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-22 15:21:17 UTC</createdTime>
+<ownerDesignName>Cooperativa</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_entidad" id="B887076D-B6E2-689B-E503-1C83F35A7D9B">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-22 15:21:17 UTC</createdTime>
+<ownerDesignName>Cooperativa</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="55C5DCEE-2546-AA37-BEFA-05F5C9502844">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-22 15:21:17 UTC</createdTime>
+<ownerDesignName>Cooperativa</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="613E25F0-4012-546A-425C-B2081C89DA17" name="REFERENCIA_COMERCIAL PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-22 15:21:34 UTC</createdTime>
+<ownerDesignName>Cooperativa</ownerDesignName>
+<engineerTo>
+<item key="19F44F54-1992-FFE1-A8B4-2D6391B6CE84" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57BBDB6A-FA90-A636-C505-369998756601</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

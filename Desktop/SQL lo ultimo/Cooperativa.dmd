@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Cooperativa" id="92D39057-1739-8FF6-F8BE-AA13B75E48AF" version="3.5">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-08-20 20:18:15 UTC</createdTime>
+<ownerDesignName>Cooperativa_amiga</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>92D39057-1739-8FF6-F8BE-AA13B75E48AF</designId>
+</OSDM_Design>
