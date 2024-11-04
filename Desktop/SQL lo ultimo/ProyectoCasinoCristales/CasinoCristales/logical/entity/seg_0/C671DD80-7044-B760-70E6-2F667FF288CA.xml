@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C671DD80-7044-B760-70E6-2F667FF288CA" name="PROVEEDOR">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:11:23 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idProveedor" id="EC5CAF36-7D8D-72A1-92A6-5E74D1D11EC9">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:11:34 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E04DEEAE-A688-9CE7-58AC-9A659EF65DDE">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:11:34 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idJuego" id="3709BBD2-3C28-17CA-683C-522EE626BB1C">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:13:13 UTC</createdTime>
+<generatorID>AEC5D179-35DE-06B6-DDEC-C485BC0BDC98</generatorID>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D40E0870-2ABE-2F62-8FFD-35884FAB8861</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9250B979-CBDC-673F-46D1-A3ECD4A23400" name="PROVEEDOR PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:11:58 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC5CAF36-7D8D-72A1-92A6-5E74D1D11EC9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

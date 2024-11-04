@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="955FA7E7-8169-02D8-D133-D25D60597AE1" name="RENDIMIENTO JUEGO">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:13:54 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRendimiento" id="BBF5358C-8966-26FA-29D6-2E48147C652C">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:14:10 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingresosDiarios" id="CE1EC088-AB81-D5EA-9A59-6C413756EDCF">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:14:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numJugadores" id="08776C4E-3C71-981A-F8EA-DDE775300A9F">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:14:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tiempoPromedioJuego" id="A1D30D3E-F3E8-9F3C-4A18-AAD397100613">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:14:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="9CEA45A5-BB96-1C30-D054-375FED223F74">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:15:41 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idJuego" id="6A68BCD1-FDAD-24CB-CD98-B6472AEA977C">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:16:50 UTC</createdTime>
+<generatorID>9DABE141-1441-D5C9-A4D1-F148E8C73A26</generatorID>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<referedAttribute>D40E0870-2ABE-2F62-8FFD-35884FAB8861</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA803DD4-49F5-44D9-57B3-317FE64200DA" name="RENDIMIENTO DEL JUEGO PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:16:16 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BBF5358C-8966-26FA-29D6-2E48147C652C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

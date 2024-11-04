@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="629334D6-1439-5E8F-63D9-CC0DB0CB243C" name="NOMINA">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:13 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idNomina" id="7D17098F-3489-2C57-9D65-567980375CDF">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:18 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="periodoPago" id="59316CC1-86D8-D652-CE81-41893EE471B0">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:18 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalHoras" id="A336CFB2-A26F-E5C2-95F1-39CB1C870B49">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:18 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalHorasExtra" id="8179E88A-A75B-C9C0-042E-8A91A144669B">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:18 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bonificaciones" id="579F0EA0-417B-CEAB-7294-40940BEEC5E3">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:19 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuentos" id="24CE6D86-4218-6C4A-7908-4607CC70E339">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:19 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salarioNeto" id="1B8959D4-3F66-95B7-C72E-9DEBF31FAF63">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:52 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64D9B056-096A-04B7-703D-A01F8C918A3E" name="NOMINA PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:15:41 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D17098F-3489-2C57-9D65-567980375CDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

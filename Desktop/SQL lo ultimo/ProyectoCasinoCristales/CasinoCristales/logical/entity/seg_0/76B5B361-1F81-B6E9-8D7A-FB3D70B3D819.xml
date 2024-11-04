@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76B5B361-1F81-B6E9-8D7A-FB3D70B3D819" name="CLIENTE">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:02 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCliente" id="80DA1134-C1EF-9701-F762-4F4094D746A9">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreCompleto" id="31A698A1-159D-7575-5664-4458A96DEDF3">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaNacimiento" id="2E61FC5E-8B26-A4FE-E8CC-BCD8F85C0969">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="2D3A8BD8-2B6E-3EFC-9DFA-1CE6F5A57FE7">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="0D75A8C9-076A-B9F7-1300-3D11C19CC93F">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:11 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivelMembresia" id="5921495E-432C-6AF6-1A74-0A9A14B8889D">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:36 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTransaccion" id="0D8930BB-0249-0A39-8B2A-4C9AF389F207">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:19:37 UTC</createdTime>
+<generatorID>76EF8288-33D5-F8CB-8E6E-21EB57D993D5</generatorID>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<referedAttribute>1CB39222-0230-0734-7E3A-D7079D8D0D8A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idSesion" id="4CF8126C-EDB1-D85C-9ABF-1EC901B217C7">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:21:10 UTC</createdTime>
+<generatorID>78793803-0FD0-95F7-CD68-481E87ABC8D4</generatorID>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<referedAttribute>4FECB6F5-E781-5F1F-076C-47F8B1DDFF94</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="554C2844-26AB-8328-2F0D-B60D63F493F4" name="CLIENTE PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:17:50 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80DA1134-C1EF-9701-F762-4F4094D746A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

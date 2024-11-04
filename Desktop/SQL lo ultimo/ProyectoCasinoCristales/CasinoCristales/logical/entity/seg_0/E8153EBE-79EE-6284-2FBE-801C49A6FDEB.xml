@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8153EBE-79EE-6284-2FBE-801C49A6FDEB" name="TRANSACCION CLIENTE">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:18:33 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTransaccion" id="1CB39222-0230-0734-7E3A-D7079D8D0D8A">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:18:47 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto" id="D322991A-5763-61FB-F3A6-B1FF836F0D35">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:18:47 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="8334E654-2881-A447-1CE2-1B79E152EF5C">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:18:48 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTransaccion" id="CE3A3B37-0EB1-0A57-7BB5-6C30624DBDF5">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:18:48 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="EF5B6615-CFEB-5F3B-7BEC-97EC8D6297D9">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:19:34 UTC</createdTime>
+<generatorID>76EF8288-33D5-F8CB-8E6E-21EB57D993D5</generatorID>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<referedAttribute>80DA1134-C1EF-9701-F762-4F4094D746A9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34585834-6146-6F9F-B8FB-1876877C7F87" name="TRANSACCION CLIENTE PK">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 23:19:10 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CB39222-0230-0734-7E3A-D7079D8D0D8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

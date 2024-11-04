@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CasinoCristales" id="66064F4B-CDF4-0AE5-A1C4-CCB792EAD309" version="3.5">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-03 22:58:12 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>66064F4B-CDF4-0AE5-A1C4-CCB792EAD309</designId>
+</OSDM_Design>

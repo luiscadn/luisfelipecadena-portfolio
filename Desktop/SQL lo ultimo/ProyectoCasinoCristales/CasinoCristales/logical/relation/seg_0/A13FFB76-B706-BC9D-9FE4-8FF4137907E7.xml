@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="A13FFB76-B706-BC9D-9FE4-8FF4137907E7">
+<createdBy>luiscadena</createdBy>
+<createdTime>2024-11-04 00:16:13 UTC</createdTime>
+<ownerDesignName>CasinoCristales</ownerDesignName>
+<engineerTo>
+<item key="1B7F9D77-7035-15DB-85D7-860C603E2CFF" value="true"/>
+</engineerTo>
+<sourcePk>64D9B056-096A-04B7-703D-A01F8C918A3E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>registra los salarios de</nameOnSource>
+<nameOnTarget>recibe su pago en</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>629334D6-1439-5E8F-63D9-CC0DB0CB243C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0B9D3A34-4526-7A3A-1C2F-5452F1D732E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
