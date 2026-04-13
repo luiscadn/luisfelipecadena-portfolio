@@ -114,7 +114,7 @@ export default function ContactSection() {
 
   const onSubmit = async (data: ContactFormData) => {
     try {
-      const accessKey = "a0060e37-ab80-4c88-9842-8be751bf2fff";
+      const accessKey = "b8a395a0-0f3e-4c12-8ca8-e686a28a0e15";
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
