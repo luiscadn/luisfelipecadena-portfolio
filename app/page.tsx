@@ -127,7 +127,7 @@ export default function Home() {
       <PortfolioHero />
 
       {/* Experience Shader Section */}
-      <section className="w-full mx-auto relative z-10 font-sans mt-24 mb-12">
+      <section id="skills" className="w-full mx-auto relative z-10 font-sans mt-24 mb-12">
         <ExperienceShader />
       </section>
 

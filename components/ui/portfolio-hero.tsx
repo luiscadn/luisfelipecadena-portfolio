@@ -84,32 +84,34 @@ export default function PortfolioHero() {
     es: {
       greeting: "¿Qué tal?, soy",
       mission: "Estudiante de Ingeniería de Sistemas en ICESI. Mi misión es orquestar soluciones tecnológicas escalables y de alto impacto que transformen objetivos de negocio en valor real para el usuario, soy creyente de que la calidad del producto nace del liderazgo y la cohesión del equipo.",
-      roles: ["Software Engineer", "Backend Lab Monitor", "Management Enthusiast", "ICESI Monitor"],
+      roles: ["Software Engineer", "IEEE", "Amante del Management", "Algoritmos y estructuras de datos", "Business Case y Viabilidad", "Gestión de Stakeholders"],
       btnProjects: "Ver Proyectos",
       btnCv: "Descargar CV",
+      cvPath: "/CV_Luis_Felipe_Cadena_Cortes_ES.pdf",
       available: "Disponible para nuevos retos",
       nav: [
         { label: "Inicio", href: "#" },
         { label: "Proyectos", href: "#projects" },
         { label: "Habilidades", href: "#skills" },
         { label: "Experiencia", href: "#experience" },
-        { label: "Sobre mí", href: "#about" },
+        //{ label: "Sobre mí", href: "#about" },
         { label: "Contacto", href: "#contact" }
       ]
     },
     en: {
       greeting: "Hi there, I'm",
       mission: "Systems Engineering Student at ICESI. My mission is to orchestrate scalable, high-impact technology solutions that transform business goals into real user value. I believe product quality stems from leadership and team cohesion.",
-      roles: ["Software Engineer", "Backend Lab Monitor", "Management Enthusiast", "ICESI Monitor"],
+      roles: ["Software Engineer", "IEEE", "Management Enthusiast", "Algorithms and Data Structures", "Business Case and Viability", "Stakeholders"],
       btnProjects: "View Projects",
       btnCv: "Download CV",
+      cvPath: "/CV_Luis_Felipe_Cadena_Cortes_EN.pdf",
       available: "Available for new challenges",
       nav: [
         { label: "Home", href: "#" },
         { label: "Projects", href: "#projects" },
         { label: "Skills", href: "#skills" },
         { label: "Experience", href: "#experience" },
-        { label: "About me", href: "#about" },
+        //{ label: "About me", href: "#about" },
         { label: "Contact", href: "#contact" }
       ]
     }
@@ -299,7 +301,7 @@ export default function PortfolioHero() {
           <div className="flex-1 flex flex-col items-center text-center md:items-start md:text-left gap-6 md:gap-8">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-sans font-bold leading-tight tracking-tight">
               {t.greeting} <br className="hidden lg:block"/>
-              <span className="text-[#38bdf8]">Luis Felipe Cadena Cortés</span>
+              <span className="text-[#38bdf8]">Luis Cadena</span>
             </h1>
 
             <div className="h-8 md:h-10 text-xl md:text-2xl font-semibold font-sans">
@@ -323,7 +325,11 @@ export default function PortfolioHero() {
                 <a href="#projects" className="px-6 py-3 rounded-md bg-[#38bdf8] text-[#020617] font-semibold hover:bg-[#0ea5e9] transition-colors duration-300">
                   {t.btnProjects}
                 </a>
-                <a href="/cv" className="px-6 py-3 rounded-md border-2 border-[#38bdf8] text-[#38bdf8] font-semibold hover:bg-[#38bdf8] hover:text-[#020617] transition-all duration-300 flex items-center gap-2">
+                <a 
+                  href={t.cvPath} 
+                  download={t.cvPath.split('/').pop()}
+                  className="px-6 py-3 rounded-md border-2 border-[#38bdf8] text-[#38bdf8] font-semibold hover:bg-[#38bdf8] hover:text-[#020617] transition-all duration-300 flex items-center gap-2"
+                >
                   <Download className="w-4 h-4" />
                   {t.btnCv}
                 </a>
